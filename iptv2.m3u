@@ -1,0 +1,249 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视频道", CCTV1
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv1_mbd.m3u8?auth_key=1772514900-1-b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da-8c790fa22e62d7cfc31204af3c16aabf&yid=b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv1hd/4000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv1hd_3000.m3u8?auth_key=1772633784-072469ff6331ada2ea18249b342b393d-0-c1b745e6740c53b67353848d8660350b
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260302172634&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=115.230.127.189&SecurityKey=20260302172634&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=4d07b80bb38ca226565466c02ee9fd68&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772443593827&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772443593828&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772443593559V&is_advertise=0&sjid=subsession_1772443594032&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=2edb8cbb81a08abc233cc40311992d2e
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260302173000&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=36.137.234.133&SecurityKey=20260302173000&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=bf05c1f011c00f359816e3e4eebe3632&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772443799722&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772443799723&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772443798420V&is_advertise=0&sjid=subsession_1772443799995&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=fa9b20ee5681e120bcea33573bd0bcaa
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260302173247&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=101.71.86.52&SecurityKey=20260302173247&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=854ff7cdeeef10b03f33a82b335ee5c0&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772443967130&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772443967146&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772443966879V&is_advertise=0&sjid=subsession_1772443967414&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=a3f274c53a9e7b17fc2a16e6cdae2b52
+http://play.kankanlive.com/live/1698234869325962.m3u8
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260302173602&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=115.227.55.125&SecurityKey=20260302173602&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=271253c33b49cf6549b49dd3a17b06c2&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444161795&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444161796&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444161571V&is_advertise=0&sjid=subsession_1772444161981&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=f970e165dcc6b9db8444e0d5edebc1a1
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260302173914&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=183.249.96.81&SecurityKey=20260302173914&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=72e4315bdf4cfa1646acfc1312b7cfbd&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444354383&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444354384&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444353819V&is_advertise=0&sjid=subsession_1772444355028&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=38dc063054ebeefadffb4ee6179a8464
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv1hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=2201057821&pid=2028597139&timestamp=20260302174152&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=123.158.252.210&SecurityKey=20260302174152&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=aa86ab09aa45e06743cb7dada289f984&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444511912&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444511913&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444511640V&is_advertise=0&sjid=subsession_1772444512156&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=a8852b22a7e2175f90b653d0b50133e0
+http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" group-title="央视频道", CCTV2
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv2_mbd.m3u8?auth_key=1772514900-1-b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da-190871c85855389fcebac03f4ee40e64&yid=b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da
+http://pull-flv-f11.douyincdn.com/media/stream-118899562654991020_hd.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1773047106&major_anchor_level=common&sign=fc408a9c6e9e55cf6afeb8b75ab56996&t_id=037-202603021705062562E930416C9A71D664-rh16LD&unique_id=stream-118899562654991020_684_flv_hd
+http://live1.hrtn.net/live/cctv2hd_3000.m3u8?auth_key=1772633786-a440883f05821f33b3af2173afcc3322-0-30088dc8402657fbdf470618a02635a2
+http://116.115.6.103:1234/631780532?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" group-title="央视频道", CCTV3
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv3hd/4000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv3hd_3000.m3u8?auth_key=1772633788-97ab4c6b103dd5643409128632637cc2-0-4c7818154259be31718845d9f988cc0f
+http://hlsztemgsplive.miguvideo.com:8080/wd_r2/2018/ocn/cctv3hd/2000/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500212864&pid=2028597139&timestamp=20260302172738&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=624878271&ParentNodeID=-99&assertID=5500212864&client_ip=61.164.246.149&SecurityKey=20260302172738&promotionId=&mvid=5100001683&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=b3ec7611ede6a37e0d7614f84c67c712&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772443658265&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772443658266&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772443658015V&is_advertise=0&sjid=subsession_1772443766262&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=30824c3466066008f6d2baefe879a2ae
+http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" group-title="央视频道", CCTV4
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1772514900-1-b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da-763367ea46df68fed0f9c46194eb5215&yid=b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da
+http://pull-f3.douyincdn.com/media/stream-118947159550984876_hd.flv?arch_hrchy=w1&auth_key=1773057905-0-0-61b900fab373664fee5f9d0ee872ecbd&exp_hrchy=w1&major_anchor_level=common&t_id=037-20260302203504B7E6F887E6A6D0013E16-evscYR&unique_id=stream-118947159550984876_684_flv_hd
+http://live1.hrtn.net/live/cctv4_1000.m3u8?auth_key=1772633790-087910bb323cf7770b0c82cf6ee6c865-0-b5d3b15ac8bf8a9eda55b647452576b5
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv4hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500346947&pid=2028597139&timestamp=20260302173051&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=631780421&ParentNodeID=-99&assertID=5500346947&client_ip=115.238.236.83&SecurityKey=20260302173051&promotionId=&mvid=5101064235&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=a1eada6607a73576607ecfe14c9ef5ba&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772443851518&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772443851526&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772443851246V&is_advertise=0&sjid=subsession_1772443882401&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=07c645877cbbe83c6f42452440e6a22a
+http://116.115.6.103:1234/631780421?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视频道", CCTV5
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv5hd/4000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv5hd_3000.m3u8?auth_key=1772633791-39315e19381be49274c4c327770deedf-0-69fe9d9a782fae9b640d71f45ee8ec64
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv5hd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500516171&pid=2028597139&timestamp=20260302174249&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=641886683&ParentNodeID=-99&assertID=5500516171&client_ip=61.141.73.71&SecurityKey=20260302174249&promotionId=&mvid=5102048712&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=0b0be483b43371644064995f38266b0f&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444569518&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444569519&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444569277V&is_advertise=0&sjid=subsession_1772444674292&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=92468d3e828cfdd61f749b6f042fcd9a
+http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" group-title="央视频道", CCTV5+
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv5phd/4000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv5jhd_3000.m3u8?auth_key=1772633792-243707571e9448d0478d96e794742d08-0-a2a62445dee604ec59d7ca81ec7b748b
+http://hlsztemgsplive.miguvideo.com:8080/wd_r2/cctv/cctv5plusnew/1200/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500516288&pid=2028597139&timestamp=20260302174519&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=641886773&ParentNodeID=-99&assertID=5500516288&client_ip=183.249.96.66&SecurityKey=20260302174519&promotionId=&mvid=5102048803&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=991c7fbe7be48c592e7a20600d95153d&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444719105&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444719106&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444717538V&is_advertise=0&sjid=subsession_1772444826826&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=bb8065586f8ab60558f521633d8836ae
+http://116.115.6.103:1234/641886773?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" group-title="央视频道", CCTV6
+http://pull-flv-f11.douyincdn.com/media/stream-695407512894046892_hd.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1773050320&major_anchor_level=common&sign=f840b0d705011856d5da9ad52a30cc7c&t_id=037-202603021758390152147F910153118306-fnJqgq&unique_id=stream-695407512894046892_684_flv_hd
+http://live1.hrtn.net/live/cctv6hd_3000.m3u8?auth_key=1772633805-aa9d8a5d844e9875a0543fa2ae3308c8-0-c85a6a86ea85b08afd14256d91edaed3
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv6hd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500212872&pid=2028597139&timestamp=20260302173337&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=624878396&ParentNodeID=-99&assertID=5500212872&client_ip=122.246.1.148&SecurityKey=20260302173337&promotionId=&mvid=5100001694&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=8559b18710f9f548e04696a2c55c86f4&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444017198&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444017211&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444016937V&is_advertise=0&sjid=subsession_1772444124706&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=38a250f0ec762241401e5037e05fa413
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv6hd/4000000/mnf.m3u8
+http://116.115.6.103:1234/624878396?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" group-title="央视频道", CCTV7
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv7_mbd.m3u8?auth_key=1772514900-1-b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da-48e90c87f5ee3f1a6168cfebc888870d&yid=b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da
+https://live.junhao.mil.cn/rmt9502/2ab1f5caa35e40af97f2d66972a144ab.m3u8?txSecret=bc721f16c1e993a20c20a1e506bf63ad&txTime=72965FFF
+http://live1.hrtn.net/live/cctv7hd_3000.m3u8?auth_key=1772633807-6cd8c576b56cabcc5fb118dad9b9e948-0-6dbff6654fb91ab4db3dffb97993d902
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" group-title="央视频道", CCTV8
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv8hd/4000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv8hd_3000.m3u8?auth_key=1772633808-80e293cda36f8f8663b365b78bfcc944-0-b773b614e3b73920319e25de10d9999d
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv8hd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500212868&pid=2028597139&timestamp=20260302173649&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=624878356&ParentNodeID=-99&assertID=5500212868&client_ip=183.249.96.67&SecurityKey=20260302173649&promotionId=&mvid=5100001695&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=988788f26178d24acafa3ca255100b69&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444208784&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444208786&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444208200V&is_advertise=0&sjid=subsession_1772444313271&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=77e0faa32b5bebfd1d79f9d0c0dbad4e
+http://116.115.6.103:1234/624878356?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" group-title="央视频道", CCTV9
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv9_mbd.m3u8?auth_key=1772514900-1-b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da-23440e371a0f8939ede1395143e750b2&yid=b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv9hd4m/4000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv9hd_3000.m3u8?auth_key=1772633809-f388eddd6a5af9403e3b30f1c1331092-0-7cfbaeb509d265b69c85d2cabd7699ea
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/20200324/cctv9hd/51/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5501083624&pid=2028597139&timestamp=20260302180825&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=673168140&ParentNodeID=-99&assertID=5501083624&client_ip=183.249.96.80&SecurityKey=20260302180825&promotionId=&mvid=5102910384&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=ee1e7f4b097610ff748f0b338458a431&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772446105362&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772446105376&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772446105072V&is_advertise=0&sjid=subsession_1772446209256&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=781b6b498c2480287bd5ef588c80ea3d
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" group-title="央视频道", CCTV10
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv10_mbd.m3u8?auth_key=1772514900-1-b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da-92b67c30fc16149daf597f24fc89669b&yid=b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv10hd8m/8000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv10hd_3000.m3u8?auth_key=1772633811-872ee27f9c85ebc751be35e1b152a6b1-0-fa0d985f78bc1b6dfd01ca6c4521ff91
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv10hd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500212874&pid=2028597139&timestamp=20260302180608&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=624878405&ParentNodeID=-99&assertID=5500212874&client_ip=183.249.96.79&SecurityKey=20260302180608&promotionId=&mvid=5100001696&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=5b684ddf8311304b0eaf94b21881743c&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445967717&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445967717&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445967188V&is_advertise=0&sjid=subsession_1772446071656&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=3b445297480c7ca45ee4bf7f99b7a5ef
+http://116.115.6.103:1234/624878405?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" group-title="央视频道", CCTV11
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv11hd4m/4000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv11_1000.m3u8?auth_key=1772633812-0a3f243002e846c5181a6d45e73d1722-0-f38ec046ddc1a4bd45da3709a99fae7c
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv11hd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500988610&pid=2028597139&timestamp=20260302180341&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=667987558&ParentNodeID=-99&assertID=5500988610&client_ip=183.249.96.78&SecurityKey=20260302180341&promotionId=&mvid=5102751362&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=444d6d4bfaf22c391f823705313385d0&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445821639&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445821640&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445821409V&is_advertise=0&sjid=subsession_1772445925786&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=b114c2bfd62d6a2d8e592cef7e332bca
+http://116.115.6.103:1234/667987558?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" group-title="央视频道", CCTV12
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv12_mbd.m3u8?auth_key=1772514900-1-b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da-404dac7c122990b330b620c2a73be1ad&yid=b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv12hd4m/4000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv12hd_3000.m3u8?auth_key=1772633826-a585a57f1359d7a6acea90927aed11f1-0-bdeb2f4a13d1e04f270a536a1a902e45
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/20200324/cctv12hd/51/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5501083627&pid=2028597139&timestamp=20260302180305&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=673168185&ParentNodeID=-99&assertID=5501083627&client_ip=183.249.96.77&SecurityKey=20260302180305&promotionId=&mvid=5102910389&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=ba42161d0f6a9d20f78357aacefa743c&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445785970&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445785971&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445783425V&is_advertise=0&sjid=subsession_1772445786470&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=4169debdfeda13342a29406bebee228f
+http://116.115.6.103:1234/673168185?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" group-title="央视频道", CCTV13
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv13_mbd.m3u8?auth_key=1772514900-1-b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da-bc16837dcecdecf4a97aa404ffa02f6d&yid=b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da
+http://pull-flv-f11.douyincdn.com/media/stream-407136188858892972_hd.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1773047103&major_anchor_level=common&sign=4d3fcc2782cc68b6409f92b987014a50&t_id=037-2026030217050237E696A1BA4217254FA4-mBsDjI&unique_id=stream-407136188858892972_684_flv_hd
+http://live1.hrtn.net/live/cctv13_1000.m3u8?auth_key=1772633828-bc04d7689fe46cb5ff77261634e108d5-0-2b0c12e88705205abc20457c62e64f42
+http://pull-hls-f11.douyincdn.com/media/stream-407136188858892972.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1773018913&major_anchor_level=common&sign=49b2a5b43da143cffc0b61fb762bc89c&t_id=037-2026030209151226A5C2CF88804701E66B-LfLeur
+http://pull-hls-f11.douyincdn.com/media/stream-695365272562303660.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1773018954&major_anchor_level=common&sign=262587945f03e8f5a8e9743010c713eb&t_id=037-202603020915535AE68661E3F48EDD8E91-cCzSAa
+http://pull-hls-f11.douyincdn.com/media/stream-695395192179262124.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1773018980&major_anchor_level=common&sign=bfa177de1eb3ad203d458d325ae13a4a&t_id=037-20260302091620A7F45019836060CC327A-VmDymq
+http://116.115.6.103:1234/608807423?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" group-title="央视频道", CCTV14
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctvsehd8m/8000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv17hd_3000.m3u8?auth_key=1772633829-335484b6571916f46e0e635fe9532152-0-6848285dbe4f1daec93f91eab5b95305
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cctv14hd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5500212875&pid=2028597139&timestamp=20260302180219&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=624878440&ParentNodeID=-99&assertID=5500212875&client_ip=183.249.96.76&SecurityKey=20260302180219&promotionId=&mvid=5100001697&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=bdc9575b072b9a57afc11c9ca64ba6a2&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445738847&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445738847&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445736835V&is_advertise=0&sjid=subsession_1772445739876&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=a72cea8213d983613938c83e6ce45bd9
+http://116.115.6.103:1234/624878440?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" group-title="央视频道", CCTV15
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv15hd8m/8000000/mnf.m3u8
+http://live1.hrtn.net/live/cctv14_1000.m3u8?auth_key=1772633830-2665547a1b7c4763dea60418d2d01d0c-0-33b22f40cc35952a408b1e53469fb76d
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/20200324/cctv15hd/51/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699004&netType=4&sid=5501083628&pid=2028597139&timestamp=20260302174748&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=673168223&ParentNodeID=-99&assertID=5501083628&client_ip=183.249.96.68&SecurityKey=20260302174748&promotionId=&mvid=5102910391&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=1cb0f419daee269b37d9c89dbe7bb9dd&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444868313&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444868314&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444867995V&is_advertise=0&sjid=subsession_1772444871016&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=bea0c1de7bfce181d39d398128fe553d
+http://116.115.6.103:1234/673168223?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" group-title="央视频道", CCTV16
+https://zby-live-aly.weclassroom.com/live/tv16-fhdU54is03otVqcjNndEdb9wICBW6aHVOW9iZMTBtKIlJe8AqWTUm8tPaLBUBgq6Du.m3u8
+http://live1.hrtn.net/live/cctv16hd_3000.m3u8?auth_key=1772633832-596f3ae853a5cf14f4c919a6441fff94-0-da2e7dbe13f5fe6b335555d70d529757
+http://69.30.246.194/live/cctv16.m3u8
+http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" group-title="央视频道", CCTV17
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv17_mbd.m3u8?auth_key=1772514900-1-b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da-ecf9c76329b96c73d0536a4d53f25817&yid=b9b811b3d7bd203edc446375432157a6f029bb6178046024dbc2032efaaa01da
+http://pull-flv-f11.douyincdn.com/media/stream-118942404554523308_hd.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1773065427&major_anchor_level=common&sign=51e28b746ea8ef21b15c6d64c8690f37&t_id=037-20260302221026BA7ED9D78471BF2E4AEA-oK7UuV&unique_id=stream-118942404554523308_684_flv_hd
+http://live1.hrtn.net/live/cctv14hd_3000.m3u8?auth_key=1772633833-3163929672c7ce09930437d9e98d3c31-0-62fb049f3b1a253c01d8e43dbb7dd149
+http://pull-hls-f11.douyincdn.com/media/stream-118942404554523308.m3u8?arch_hrchy=w1&exp_hrchy=w1&expire=1773018633&major_anchor_level=common&sign=f0799f0a93b5fe56e0e157e0474d9984&t_id=037-20260302091032062D434A0C7A581C1A20-X0KGgc
+http://116.115.6.103:1234/673168256?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" group-title="卫视频道", 北京卫视
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1772460602&sign=15f5ddc02c62fbd4b400850e7b28b4a5
+http://live1.hrtn.net/live/bjwshd_3000.m3u8?auth_key=1772633849-84bbd545796379a8cd033b5ee8538ce6-0-40b6846056c7620a4e98a22e0351d465
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/bjws/51/20251127/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=600697&netType=4&sid=5910022306&pid=2028597139&timestamp=20260302175522&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=630287636&ParentNodeID=-99&assertID=5910022306&client_ip=183.249.96.73&SecurityKey=20260302175522&promotionId=&mvid=5101042960&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=5cc63c1d70d65c924e38dc6e7a0b3b32&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445322672&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445322672&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445320073V&is_advertise=0&sjid=subsession_1772445323096&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=68460de431effc6b899e23e5d75322bf
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" group-title="卫视频道", 东方卫视
+http://bp-live4ktc.bestv.cn/1080p/dfws4k1080p264_4k1080p.m3u8
+http://live1.hrtn.net/live/dfwshd_3000.m3u8?auth_key=1772633850-39cf0a4609d09b0e51c9b11191953548-0-ff7a00d00439ec5c6c413c9611233aa4
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/dongfanghd265/51/20191230/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=600697&netType=4&sid=5910022185&pid=2028597139&timestamp=20260302174831&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=651632648&ParentNodeID=-99&assertID=5910022185&client_ip=183.249.96.69&SecurityKey=20260302174831&promotionId=&mvid=5100043384&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=2903d800056a44668e5e473a5192e10b&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772444911423&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772444911424&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772444911133V&is_advertise=0&sjid=subsession_1772445018810&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=1f4cdb5b2896cb37bfa856715f88b2d0
+http://116.115.6.103:1234/651632648?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" group-title="卫视频道", 浙江卫视
+https://bd-xwl.cztv.com/live/channel4k2160p.m3u8
+http://live1.hrtn.net/live/zjwshd_3000.m3u8?auth_key=1772633851-b56eff448ce0b5f3521803d81e20cd89-0-ac443d1cb59b137559aa6851c1b33d18
+http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
+http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
+http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
+http://play-qukan.cztv.com/live/1758879019692345.m3u8
+https://play-qukan.cztv.com/live/1758879019692345.m3u8
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" group-title="卫视频道", 江苏卫视
+https://litchi-play-encrypted.jstv.com/applive/jswspro.m3u8?txSecret=903efd6223ff0fcea8afb0571657a9d4&txTime=1772546596
+http://live1.hrtn.net/live/jswshd_3000.m3u8?auth_key=1772633853-05e4a2b915c9906db87934d07c16f688-0-3b63b4750de7e6eb4848810892504a7a
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/jswshd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699067&netType=4&sid=5500199408&pid=2028597139&timestamp=20260302175120&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=623899368&ParentNodeID=-99&assertID=5500199408&client_ip=183.249.96.70&SecurityKey=20260302175120&promotionId=&mvid=5100156802&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=47e15101af94d2afe662609dd660fc26&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445080085&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445080086&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445078716V&is_advertise=0&sjid=subsession_1772445081920&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=ece0ea2885fadfdf9db30c325075cc77
+https://hlsbkmgsplive.miguvideo.com/migu/kailu/jswshd265/55/20200407/01.m3u8?&HlsSubType=&encrypt=
+http://116.115.6.103:1234/623899368?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" group-title="卫视频道", 深圳卫视
+https://zby-live-aly.weclassroom.com/live/szws-H6GwWYyt1tTrD9pkD30EZHMfUJE5oecPCpXSJyv1Nwcnjlaa2o4Aqw9UiGDvoPWAY42zvy9bKHANLF3kAJvIfs8W.m3u8
+http://live1.hrtn.net/live/szwshd_3000.m3u8?auth_key=1772633854-e0d1ce5bd0a0f2530b6f1c1096d2d0ad-0-f6932a47ad8673ff46b6766fd90ea420
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" group-title="卫视频道", 广东卫视
+http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/gdwshd8m/8000000/mnf.m3u8
+http://live1.hrtn.net/live/gdwshd_3000.m3u8?auth_key=1772633868-0054e57befb8a9f7bc2c58992d658a7a-0-fec84d1b788f5db4c772f99d9ee9e867
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/gdwshd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=699054&netType=4&sid=2202428795&pid=2028597139&timestamp=20260302175156&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=608831231&ParentNodeID=-99&assertID=2202428795&client_ip=183.249.96.71&SecurityKey=20260302175156&promotionId=&mvid=2202428795&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=f718dc04265cce1904054a54e0699a5f&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445116248&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445116249&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445114505V&is_advertise=0&sjid=subsession_1772445117546&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=0ab36512accf389f63c38f8332410653
+http://116.115.6.103:1234/608831231?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" group-title="卫视频道", 大湾区卫视
+http://mgsp-zy2.live.miguvideo.com:8088/wd_r3/2018/nfmedia/nfws/1000/01.m3u8?msisdn=d03694d37e4280938fefe74990b42601&mdspid=&spid=699054&netType=0&sid=2200322852&pid=2028597139&timestamp=20260302154358&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=608917627&ParentNodeID=-99&assertID=2200322852&client_ip=101.91.126.133&SecurityKey=20260302154358&promotionId=&mvid=2200322852&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&sv=10004&ct=android&HlsSubType=1&HlsProfileId=1&nphaid=0&mtv_session=d2412b531f94f6b497a4e35b83008dc2&encrypt=23ad961c2590b37572abdbce8dcdbb25
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" group-title="卫视频道", 湖南卫视
+http://live1.hrtn.net/live/hnwshd_3000.m3u8?auth_key=1772633870-1c24a0201a28156f1c8bfdc74f1e0905-0-7490d6fbbf8db1591c35ed9bcf4d6987
+http://69.30.246.194/live/hnws.m3u8
+https://hlsbkmgsplive.miguvideo.com/wd-hunanhd-2500/01.m3u8?&HlsSubType=&encrypt=
+https://hlsbkmgsplive.miguvideo.com/wd-hunanhd-1200/01.m3u8?&HlsSubType=&encrypt=
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" group-title="卫视频道", 安徽卫视
+http://live-broadcast-sh-service.vcinema.cn/live/2edc849a3f15c122f2ec40be6d7a58cd.m3u8
+http://live1.hrtn.net/live/ahwshd_3000.m3u8?auth_key=1772633871-b9c63e7a17087a5ef168268fc008afb4-0-5cd9bffce1dbe7e77f3f573b4914ad5f
+http://aik.ddnsfile.top:65235/rtp/239.21.1.159:5002
+http://gcc125.myds.me:6888/rtp/239.49.8.80:8000
+https://qsxw.gov.cn/rtmp_export/video11.m3u8
+http://ylt.7766.org:333/hls/46/index.m3u8
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" group-title="卫视频道", 天津卫视
+http://live-broadcast-sh-service.vcinema.cn/live/dd27e9aca9e186b7f90a3593187d5b73.m3u8
+http://live1.hrtn.net/live/tjwshd_3000.m3u8?auth_key=1772633873-9a73b498dc6184667a2a713cf0f530e1-0-b079f0b933df092ee9a0421b38edf927
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" group-title="卫视频道", 重庆卫视
+https://zby-live-aly.weclassroom.com/live/cqws-EC2PeYOR8zxLOaMQsune2UQPfvBjlMKjFgP4O2pt12ePjlFknl6bz1YREEHCaIOMYV3aTQLDanh7bIlUOLO9jHjX.m3u8
+http://live1.hrtn.net/live/cqwshd_3000.m3u8?auth_key=1772633873-b52470dc216aed71375a2e4d53b7fe76-0-47ef9ff316b0c01988aae37f3b55c2e9
+https://hlsbkmgsplive.miguvideo.com/envivo_x/2018/SD/chongqing/1000/01.m3u8?&HlsSubType=&encrypt=
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" group-title="卫视频道", 山东卫视
+https://zby-live-aly.weclassroom.com/live/sdws-SkbbpFoHuiFqlcauYPF2SbgCfIHBoIZ6FWRYc6qyTuCHDsc4cbs2tbhFgjhziqMEi8tvP7X2km7uFAaeUoyzwp4D.m3u8
+http://live1.hrtn.net/live/sdwdhd_3000.m3u8?auth_key=1772633875-2559b03f802fc38a9d871dc5fc6f46de-0-4e03dc3c74abbabf173babc51bb582aa
+https://hlsbkmgsplive.miguvideo.com/wd_r4/yg/shandongwshd/3000/01.m3u8?&HlsSubType=&encrypt=
+https://hlsbkmgsplive.miguvideo.com/wd-shandonghd-1200/01.m3u8?&HlsSubType=&encrypt=
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" group-title="卫视频道", 黑龙江卫视
+https://zby-live-aly.weclassroom.com/live/hljws-1bYWYzMZruIG0HMwERTfRDI6pE5nQGHXOABbsIEsFLtb8tKQ72Lmzw7kzQXpw4FBrTZkvxeP2gmBKE4XxYZ2nsQI.m3u8
+http://live1.hrtn.net/live/hljwshd_3000.m3u8?auth_key=1772633888-34772ed29354b3880211f0538c808e8e-0-8034b33c68a724c01f86f27017c24ed3
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" group-title="卫视频道", 河北卫视
+http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
+http://live1.hrtn.net/live/hebws_1000.m3u8?auth_key=1772633890-2ebc5392b5168582ecc3377f045041f0-0-8a341ee3b0210cab7b51ac92a7ddf8d9
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" group-title="卫视频道", 辽宁卫视
+http://live-broadcast-sh-service.vcinema.cn/live/9da950e12c6633c4e0829f1dbfd98ffc.m3u8
+http://live1.hrtn.net/live/lnwshd_3000.m3u8?auth_key=1772633892-60f3f382d47f254595fb379bc28f9842-0-b6ad348901bb524d51abd6945b87d6f7
+http://sh.lnott.top:880/dx19.m3u8
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/lnwshd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=600572&netType=4&sid=5910022198&pid=2028597139&timestamp=20260302175258&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=630291707&ParentNodeID=-99&assertID=5910022198&client_ip=183.249.96.72&SecurityKey=20260302175258&promotionId=&mvid=5101043014&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=948f605e6c86196835dbb552e5c9cf95&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445177702&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445177702&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445175680V&is_advertise=0&sjid=subsession_1772445285150&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=df97138660e1924b99afd43e45cc2183
+https://hlsbkmgsplive.miguvideo.com/migu/kailu/lnwshd265/54/20200407/01.m3u8?&HlsSubType=&encrypt=
+http://116.115.6.103:1234/630291707?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" group-title="卫视频道", 湖北卫视
+http://live-broadcast-sh-service.vcinema.cn/live/742f9e79b99de9f31e99e24f4e576d9f.m3u8
+http://live1.hrtn.net/live/hbwshd_3000.m3u8?auth_key=1772633894-bca9d55212fe830213a2c02187779fbc-0-024c44ee5f069a7828b620044c2168f0
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/hbwshd265/54/20200407/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=600633&netType=4&sid=5910022163&pid=2028597139&timestamp=20260302175646&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=947472496&ParentNodeID=-99&assertID=5910022163&client_ip=183.249.96.75&SecurityKey=20260302175646&promotionId=&mvid=5900004355&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h265&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=adae2ee71da28441c95e64eb47761edb&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445406502&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445406503&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445405796V&is_advertise=0&sjid=subsession_1772445513555&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=c73b4dcb3f359b3795e89d49f13039ef
+http://116.115.6.103:1234/947472496?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" group-title="卫视频道", 吉林卫视
+https://live-master.jlntv.cn/jlwshd/sd/live.m3u8
+http://live1.hrtn.net/live/jlwshd_3000.m3u8?auth_key=1772633895-c36f1c38697bb7d0021886e64b7681d9-0-b884039cb5a78d8be67824b36fde4327
+https://hlsbkmgsplive.miguvideo.com/envivo_v/2018/SD/jilin/1000/01.m3u8?&HlsSubType=&encrypt=
+http://116.115.6.103:1234/947472500?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" group-title="卫视频道", 贵州卫视
+https://hls-qnhi-live.gzstv.com/livegztv-hi/CH01_hd.m3u8?s=d17ef6de0d87bbaa2f4d3ea2a4cfefd2&ts=69a5987c
+http://live1.hrtn.net/live/gzwshd_3000.m3u8?auth_key=1772633897-dc45718f064e2ae01666eadbcc384e5f-0-09cda986cccd23e35d00d9cacf634c7a
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" group-title="卫视频道", 东南卫视
+http://live-broadcast-sh-service.vcinema.cn/live/ad3ad4b0d8e92d02b6a443bce1f9adee.m3u8
+http://live1.hrtn.net/live/dnwshd_3000.m3u8?auth_key=1772633898-e623440da30d1674fd3b4ddb96715a5b-0-fa88417710333fa4b0f2b344430a96d3
+https://hlsbkmgsplive.miguvideo.com/migu/kailu/dongnanws/51/20230724/01.m3u8?&HlsSubType=&encrypt=
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" group-title="卫视频道", 江西卫视
+http://live-broadcast-sh-service.vcinema.cn/live/8107e452be522cb79df438bbdfdab6b4.m3u8
+http://live1.hrtn.net/live/jxwshd_3000.m3u8?auth_key=1772633912-7bf66053c254f80c32041484f110ab30-0-8f9d0fce90611397403afddeda895a88
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/jxwshd/51/20190820/01.m3u8?msisdn=c51d5bdf7da3f733f5f7fec9903f7fae&mdspid=&spid=600633&netType=4&sid=5910021492&pid=2028597139&timestamp=20260302175559&Channel_ID=0116_2600031500-99000-200300140100004&ProgramID=783847495&ParentNodeID=-99&assertID=5910021492&client_ip=183.249.96.74&SecurityKey=20260302175559&promotionId=&mvid=5900004351&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&mtv_session=154f833088f26f8879c5227febec9320&sv=10004&ct=android&playUrlSsn=c51d5bdf7da3f733f5f7fec9903f7fae1772445359473&prlId=c51d5bdf7da3f733f5f7fec9903f7fae1772445359474&jid=c51d5bdf7da3f733f5f7fec9903f7fae1772445358847V&is_advertise=0&sjid=subsession_1772445361899&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=cb8d61386b2b78ec284e346158cac6f9
+http://116.115.6.103:1234/783847495?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" group-title="卫视频道", 海南卫视
+https://live2.hnntv.cn/srs/tv/lywsgq.m3u8?_upt=3ccb0ec71772467388
+http://live1.hrtn.net/live/hainwshd_3000.m3u8?auth_key=1772633913-615f7e78b18d02520fa132813498153f-0-3f44ce08fe7f3d2bae8a64d27c77eb6b
+http://116.115.6.103:1234/947472502?reptoken=R/mg&auth=
+#EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" group-title="卫视频道", 云南卫视
+http://live-broadcast-sh-service.vcinema.cn/live/e7b33b52b790c3fbdea7cde8c5ce10c3.m3u8
+http://live1.hrtn.net/live/ynws_1000.m3u8?auth_key=1772633913-86dcac2e5eb690a66e3aa53b5c383233-0-30a9946089ff6c22fbb2fa387b697cbf
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" group-title="卫视频道", 兵团卫视
+https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8?timestamp=20260301140000&encrypt=af50de6201819e8075a74d6161601713
+http://live1.hrtn.net/live/btws_1000.m3u8?auth_key=1772633914-d18f8262c4bf7564733b92e88c2ae222-0-8aed811be64d61555f39e9146865b9fa
+https://hlsbkmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/01.m3u8?&HlsSubType=&encrypt=
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" group-title="卫视频道", 四川卫视
+https://zby-live-aly.weclassroom.com/live/scws-iVq2dqcYFdvHPNyYHMcGNZGFFqCXRSCAcylJotPaV9YXDjOBqD4WXchfwIMF1QfPenVMsaLSWDLNw9PYw4IsxJRB.m3u8
+http://live1.hrtn.net/live/scwshd_3000.m3u8?auth_key=1772633916-8ef0a065c0b37e2f97385b9d2cf99343-0-8c97b99aa298da663d09034dd2adcca8
+http://aik.ddnsfile.top:65235/rtp/239.21.2.15:5002
+http://gcc125.myds.me:6888/rtp/239.49.8.110:8000
+#EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" group-title="卫视频道", 宁夏卫视
+http://mgsp-hs2.live.miguvideo.com:8088/envivo_x/2018/SD/ningxia/1000/01.m3u8?msisdn=d03694d37e4280938fefe74990b42601&mdspid=&spid=600697&netType=0&sid=5910022262&pid=2028597139&timestamp=20260302180029&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=738910535&ParentNodeID=-99&assertID=5910022262&client_ip=101.91.126.133&SecurityKey=20260302180029&promotionId=&mvid=5900004337&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&sv=10004&ct=android&mtv_session=ba6e7f56c71d29c0171f93749e521f3b&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=a7f18c26d70077eeb3c7bb3934b922b7
+http://live1.hrtn.net/live/nxws_1000.m3u8?auth_key=1772633918-04eb90a935de004a0b60ca356be04f67-0-3593caed68e046c6f45283f255223f50
+#EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" group-title="卫视频道", 山西卫视
+https://livehhhttps.sxrtv.com/lsdream/q8RVWgs/1000/u3sh8sV.m3u8
+http://live1.hrtn.net/live/sxws_1000.m3u8?auth_key=1772633918-e3b2ec87b154d0008d765872989ee30d-0-02dbbf8a05fee3de22744e3c43e66dec
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" group-title="卫视频道", 广西卫视
+http://live-broadcast-sh-service.vcinema.cn/live/938647cca843ccf263fd655656a03f07.m3u8
+http://live1.hrtn.net/live/gxwshd_3000.m3u8?auth_key=1772633932-35a1ab62ff1fb5986fa547faf211b10f-0-b2c74383085b3d808b0b26ccd5dfc8c6
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" group-title="卫视频道", 新疆卫视
+https://slstplay.xjtvs.com.cn/xjtv1/xjtv1stream.m3u8?auth_key=1772463803-5-5-2682bde5f7d72ebef103bfde98281acc&aliyun_uuid=c84357e3-b304-4e3b-915c-5f4002c1a979
+http://live1.hrtn.net/live/xjws_1000.m3u8?auth_key=1772633933-6512e1d06c4348697067bbafc55d3896-0-816932c67c170f513087f56ee2b787ab
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" group-title="卫视频道", 河南卫视
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=d0f33c78a328b692a0e24511fb11641c&wsTime=1772474590
+http://live1.hrtn.net/live/henwshd_3000.m3u8?auth_key=1772633934-9a4bd257132c4f677c64e38c3f5421d6-0-9aac66c1e1a942d940b96d0ad93c2607
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" group-title="卫视频道", 甘肃卫视
+https://liveout.gstv.com.cn/skt649/p9xpey.m3u8
+http://live1.hrtn.net/live/gsws_1000.m3u8?auth_key=1772633935-36975b54a72a3a7457b59b6416bf8a46-0-cce4b1479cc46a89c296c48e1293a442
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" group-title="卫视频道", 西藏卫视
+https://tv.vtibet.cn/live/h701F9MpxzPDyE.m3u8?secret=72e7e1f1adde90094f1fc562d965605b&time=69a59898
+http://live1.hrtn.net/live/xzws_1000.m3u8?auth_key=1772633936-d28a16af8828db593a7ff5b2433044cf-0-133f760f9470707a866baeb5171710a4
+#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" group-title="卫视频道", 陕西卫视
+http://stream.snrtv.com/sxbc-star-bepyHR.m3u8
+http://live1.hrtn.net/live/shxws_1000.m3u8?auth_key=1772633936-3fcb73812c295d4147b83bd3f1c1cf8f-0-c4148f1dc85e2368e0dda65a81f242bd
+#EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" group-title="卫视频道", 青海卫视
+https://live.qhbtv.com.cn/qhws/sd/live.m3u8?timestamp=1772467353&encrypt=e40bbafdb46d19600e38df69eb3f3f7a
+http://live1.hrtn.net/live/qhws_1000.m3u8?auth_key=1772633938-d91c326a0a4a5d7480da36e7753b6f09-0-ec82b1f7359d062cc97624467aa086d5
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" group-title="卫视频道", 内蒙古卫视
+https://livestream-bt.nmtv.cn/nmtv/3621481general.m3u8?txSecret=a0b8cc66a1124cf66791a507195b9093&txTime=6D58FFD0&token=6936c64954004934810b5e1eba6d7883
+http://live1.hrtn.net/live/nmws_1000.m3u8?auth_key=1772633951-11dfc5b14be80ddbae92f16e23b7bd34-0-2b46a94aeb2758c0007f7136a75c0433
+#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" group-title="其它频道", CHC影迷电影
+http://mgsp-yx2.live.miguvideo.com:8088/migu/kailu/chcymdy/51/20250415/01.m3u8?msisdn=d03694d37e4280938fefe74990b42601&mdspid=&spid=699004&netType=0&sid=5910022176&pid=2028597139&timestamp=20260302175846&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=952383261&ParentNodeID=-99&assertID=5910022176&client_ip=101.91.126.133&SecurityKey=20260302175846&promotionId=&mvid=5900006704&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&sv=10004&ct=android&HlsSubType=1&HlsProfileId=1&nphaid=0&mtv_session=4ca2ba4ec1c256fe338292ea4b9af4e2&encrypt=024c5cdc147fe168fe6169165ffd686f
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" group-title="其它频道", CHC动作电影
+http://mgsp-yx2.live.miguvideo.com:8088/migu/kailu/chcdzdy/57/20250514/01.m3u8?msisdn=914dafa69aab239fc63512e84f038aac&mdspid=&spid=699004&netType=0&sid=5500554795&pid=2028600720&timestamp=20260302183709&Channel_ID=0116_2600037000-99000-200300220100002&ProgramID=644368714&ParentNodeID=-99&assertID=5500554795&client_ip=49.232.183.233&SecurityKey=20260302183709&promotionId=&mvid=5102072875&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=1769971623&jmhm=914dafa69aab239fc63512e84f038aac&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=1&HlsSubType=1&HlsProfileId=1&nphaid=0&mtv_session=792e931ed1b856902dbe763a05d01b4b&encrypt=ba565e067a44c18b1a97e6c7b365cdfd
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" group-title="其它频道", CHC家庭影院
+http://mgsp-hs2.live.miguvideo.com:8088/wd_r3/cnr/chcjtyy/3000/01.m3u8?msisdn=914dafa69aab239fc63512e84f038aac&mdspid=&spid=699004&netType=0&sid=5500554911&pid=2028600720&timestamp=20260302183645&Channel_ID=0116_2600037000-99000-200300220100002&ProgramID=644368373&ParentNodeID=-99&assertID=5500554911&client_ip=49.232.183.233&SecurityKey=20260302183645&promotionId=&mvid=5102072861&mcid=500020&playurlVersion=ZQ-A1-9.2.2-RELEASE&userid=1769971623&jmhm=914dafa69aab239fc63512e84f038aac&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=1&mtv_session=95ca2a2f71b66560107b2c6cae2fda20&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=02425bc4d5c1661d8a11d2be4b92af9c

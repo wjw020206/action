@@ -1,0 +1,129 @@
+name: Update IPTV File
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-iptv:
+    runs-on: self-hosted
+    environment: action
+    env:
+      HTTP_PROXY: "http://127.0.0.1:7890"
+      HTTPS_PROXY: "http://127.0.0.1:7890"
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+
+    - name: Download IPTV2 file from LINK
+      shell: powershell
+      run: curl.exe -fL -o iptv2.m3u "${{ secrets.LINK }}"
+
+    - name: Check if download is valid
+      shell: powershell
+      run: |
+        $content = Get-Content -Path iptv2.m3u -Raw
+        if ($content -match "未验证通过") {
+          Write-Error "IPTV file invalid: verification failed"
+          exit 1
+        }
+        if ($content -match "请求过于频繁") {
+          Write-Error "IPTV file invalid: request too frequent"
+          exit 1
+        }
+
+    - name: Create IPTV file from fixedtv.m3u and iptv2.m3u
+      shell: powershell
+      run: |
+        $iptv2Content = Get-Content -Path iptv2.m3u -Encoding UTF8
+        $fixedContent = Get-Content -Path fixedtv.m3u -Encoding UTF8
+        $result = @($iptv2Content[0]) + $fixedContent + $iptv2Content[1..($iptv2Content.Length - 1)]
+        $result | Set-Content -Path iptv.m3u -Encoding UTF8
+
+    - name: Commit and push changes (squash history)
+      shell: powershell
+      env:
+        GH_TOKEN: ${{ secrets.TOKEN }}
+      run: |
+        # 修复 Git 仓库所有权问题
+        git config --global --add safe.directory '*'
+        
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add iptv.m3u iptv2.m3u
+        
+        # 检查是否有变更（兼容旧版 Git）
+        git diff-index --quiet --cached HEAD
+        $hasChanges = $LASTEXITCODE -ne 0
+        if ($hasChanges) {
+          # 获取初始提交的 hash
+          $initialCommit = git rev-list --max-parents=0 HEAD
+          # 软重置到初始提交，保留所有更改在暂存区
+          git reset --soft $initialCommit
+          # 重新添加文件
+          git add -A
+          # 修改初始提交
+          git commit --amend -m "GitHub Actions Auto Updated"
+          # 推送到 GitHub
+          git remote set-url origin "https://x-access-token:$env:GH_TOKEN@github.com/wjw020206/action.git"
+          git push --force
+        }
+
+    - name: Install and Configure COSCMD
+      shell: powershell
+      env:
+        COS_SECRET_ID: ${{ secrets.COS_SECRET_ID }}
+        COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
+        COS_BUCKET: ${{ secrets.COS_BUCKET }}
+        COS_REGION: ${{ secrets.COS_REGION }}
+      run: |
+        # 查找可用的 Python 命令
+        $pythonCmd = $null
+        if (Get-Command py -ErrorAction SilentlyContinue) {
+          $pythonCmd = "py"
+          Write-Host "Using Python Launcher: py"
+        } elseif (Get-Command python3 -ErrorAction SilentlyContinue) {
+          $pythonCmd = "python3"
+          Write-Host "Using python3"
+        } elseif (Get-Command python -ErrorAction SilentlyContinue) {
+          $pythonCmd = "python"
+          Write-Host "Using python"
+        } else {
+          Write-Error "No Python installation found. Please install Python on the runner."
+          exit 1
+        }
+        
+        # 获取 Python Scripts 目录
+        $pythonPath = & $pythonCmd -c "import sys; print(sys.prefix)"
+        $scriptsPath = Join-Path $pythonPath "Scripts"
+        Write-Host "Python Scripts directory: $scriptsPath"
+        
+        # 将 Scripts 目录添加到当前会话的 PATH
+        $env:PATH = "$scriptsPath;$env:PATH"
+        Write-Host "Added Scripts directory to PATH"
+        
+        # 安装 coscmd
+        & $pythonCmd -m pip install --upgrade pip
+        & $pythonCmd -m pip install coscmd
+        
+        # 验证 coscmd 安装
+        if (Get-Command coscmd -ErrorAction SilentlyContinue) {
+          Write-Host "[✓] coscmd is now available"
+          coscmd --version
+        } else {
+          Write-Error "Failed to find coscmd even after adding to PATH"
+          exit 1
+        }
+        
+        # 配置 coscmd
+        coscmd config -a $env:COS_SECRET_ID -s $env:COS_SECRET_KEY -b $env:COS_BUCKET -r $env:COS_REGION
+        
+        # 上传文件
+        coscmd upload iptv.m3u iptv.m3u
+        coscmd upload iptv2.m3u iptv2.m3u
+        Write-Host "Files uploaded to Tencent Cloud COS successfully"
