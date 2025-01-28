@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1,嵊州新闻综合
+https://pili-live-hls.szttkk.cn/szttkk/tv3765-1566196862.m3u8
+#EXTINF:-1,绍兴新闻综合
+http://live.shaoxing.com.cn/video/s10001-sxhb/index.m3u8
 #EXTINF:-1,CCTV1-综合
 http://115.207.253.141:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,CCTV2-财经
