@@ -2,8 +2,8 @@ name: Update IPTV File
 
 on:
   schedule:
-    # 每隔一个小时运行一次
-    - cron: '0 * * * *'
+    - cron: '0 * * * *'  # 每小时运行一次
+  workflow_dispatch:  # 支持手动触发
 
 jobs:
   update-iptv:
