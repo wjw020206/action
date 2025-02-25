@@ -1,0 +1,26 @@
+name: Update IPTV File
+
+on:
+  schedule:
+    # 每隔一个小时运行一次
+    - cron: '0 * * * *'
+
+jobs:
+  update-iptv:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Download IPTV file
+      run: |
+        curl -o iptv2.m3u "https://gyssi.link/iptv/chinaiptv/%E4%BA%91%E5%8D%97%E7%9C%81.m3u?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI0NDUxOTY1NjY5MjA4NDIsImlhdCI6MTczODA2MTEzMiwiZXhwIjoxNzcwODkzMTMyfQ.TP1MvqbZHzM_tgVBz0zpqApnxCiBxO_qyUd-8ivNSN0"
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "CodePencil"
+        git config --global user.email "jiawei.wang2021@gmail.com"
+        git add iptv2.m3u
+        git commit -m "Update iptv2.m3u file"
+        git push
