@@ -78,11 +78,11 @@ http://14.204.42.161:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,贵州卫视
 http://14.204.42.161:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,广东卫视
-http://119.62.35.253:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
+http://14.204.42.161:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,河南卫视
-http://119.62.35.253:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
+http://14.204.42.161:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,吉林卫视
-http://119.62.35.253:9901/tsfile/live/0139_2.m3u8?key=txiptv&playlive=0&authid=0
+http://14.204.42.161:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,山西卫视
 http://119.62.35.253:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,河北卫视
@@ -90,9 +90,9 @@ http://119.62.35.253:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,广西卫视
 http://119.62.35.253:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,甘肃卫视
-http://119.62.35.253:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=0&authid=0
+http://14.204.42.161:9901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,青海卫视
-http://119.62.35.253:9901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=0&authid=0
+http://14.204.42.161:9901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,内蒙古
 http://14.204.42.161:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,新疆卫视
