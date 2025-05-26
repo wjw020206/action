@@ -56,7 +56,7 @@ http://221.213.91.104:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=
 #EXTINF:-1,湖北卫视
 http://221.213.91.104:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,四川卫视
-http://221.213.92.254:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
+http://221.213.91.104:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,黑龙江卫视
 http://221.213.91.104:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,东南卫视
