@@ -4,7 +4,7 @@ http://14.204.109.23:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,CCTV2
 http://14.204.109.23:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,CCTV3
-http://14.204.46.119:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
+http://14.204.109.23:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,CCTV4
 http://14.204.109.23:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1,CCTV5
