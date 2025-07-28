@@ -17,7 +17,7 @@ jobs:
 
     - name: Download IPTV file
       run: |
-        curl -o iptv2.m3u ${{ secrets.LINK }}
+        curl -o iptv2.m3u "${{ secrets.LINK }}"
 
     - name: Commit and push changes
       run: |
