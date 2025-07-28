@@ -8,6 +8,7 @@ on:
 jobs:
   update-iptv:
     runs-on: ubuntu-latest
+    environment: action  # 指定环境为 "action"
 
     steps:
     - name: Checkout repository
