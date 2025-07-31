@@ -18,7 +18,7 @@ http://171.213.204.28:9901/tsfile/live/faacts/0007_1.m3u8?key=txiptv&playlive=1&
 #EXTINF:-1,CCTV8-电视剧
 http://171.213.204.28:9901/tsfile/live/faacts/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,CCTV9-纪录
-http://111.9.163.186:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+http://171.213.204.28:9901/tsfile/live/faacts/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,CCTV10-科教
 http://171.213.204.28:9901/tsfile/live/faacts/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,CCTV11-戏曲
