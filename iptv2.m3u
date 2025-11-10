@@ -12,7 +12,7 @@ http://119.4.140.94:9901/tsfile/live/faacts/0005_1.m3u8?key=txiptv&playlive=1&au
 #EXTINF:-1,CCTV5+体育赛事
 http://119.4.140.94:9901/tsfile/live/faacts/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,CCTV6-电影
-http://116.169.249.197:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=0&authid=0
+http://119.4.140.94:9901/tsfile/live/faacts/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,CCTV7-军农
 http://119.4.140.94:9901/tsfile/live/faacts/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,CCTV8-电视剧
