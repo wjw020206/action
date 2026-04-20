@@ -45,52 +45,6 @@ jobs:
         $result = @($iptv2Content[0]) + $fixedContent + $iptv2Content[1..($iptv2Content.Length - 1)]
         $result | Set-Content -Path iptv.m3u -Encoding UTF8
 
-    - name: Commit and push changes (squash history)
-      shell: powershell
-      env:
-        GH_TOKEN: ${{ secrets.TOKEN }}
-      run: |
-        # 修复 Git 仓库所有权问题
-        git config --global --add safe.directory '*'
-        
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add iptv.m3u iptv2.m3u
-        
-        # 先判断当前仓库是否存在 HEAD，避免在空历史或异常 checkout 时直接引用 HEAD 报错
-        $null = git rev-parse --verify HEAD 2>&1
-        $hasHead = $LASTEXITCODE -eq 0
-
-        if ($hasHead) {
-          git diff --cached --quiet -- iptv.m3u iptv2.m3u
-          $hasChanges = $LASTEXITCODE -ne 0
-        } else {
-          $stagedFiles = git diff --cached --name-only -- iptv.m3u iptv2.m3u
-          $hasChanges = -not [string]::IsNullOrWhiteSpace(($stagedFiles -join "`n"))
-        }
-
-        if ($hasChanges) {
-          if ($hasHead) {
-            # 获取根提交并保留当前索引/工作区，从而继续维持单提交历史
-            $initialCommit = (git rev-list --max-parents=0 HEAD | Select-Object -First 1).Trim()
-            if (-not [string]::IsNullOrWhiteSpace($initialCommit)) {
-              git reset --soft $initialCommit
-              git add -A
-              git commit --amend -m "GitHub Actions Auto Updated"
-            } else {
-              git commit -m "GitHub Actions Auto Updated"
-            }
-          } else {
-            git commit -m "GitHub Actions Auto Updated"
-          }
-
-          # 推送到 GitHub
-          git remote set-url origin "https://x-access-token:$env:GH_TOKEN@github.com/wjw020206/action.git"
-          git push --force
-        } else {
-          Write-Host "No changes detected; skipping commit and push."
-        }
-
     - name: Install and Configure COSCMD
       shell: powershell
       env:
