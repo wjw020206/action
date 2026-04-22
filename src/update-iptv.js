@@ -318,7 +318,7 @@ async function removeGeneratedFiles() {
  * @returns {void}
  */
 function log(message) {
-  const line = `[${new Date().toISOString()}] INFO ${message}`
+  const line = `[${formatLocalTime(new Date())}] INFO ${message}`
   console.log(line)
   writeLogLine(line)
 }
@@ -331,9 +331,33 @@ function log(message) {
  */
 function logError(error) {
   const message = formatError(error)
-  const line = `[${new Date().toISOString()}] ERROR ${message}`
+  const line = `[${formatLocalTime(new Date())}] ERROR ${message}`
   console.error(line)
   writeLogLine(line)
+}
+
+/**
+ * 格式化本地时间
+ *
+ * @param {Date} date - 时间对象
+ * @returns {string} 本地时间
+ */
+function formatLocalTime(date) {
+  const pad = (value, length = 2) => String(value).padStart(length, '0')
+
+  return [
+    date.getFullYear(),
+    '-',
+    pad(date.getMonth() + 1),
+    '-',
+    pad(date.getDate()),
+    ' ',
+    pad(date.getHours()),
+    ':',
+    pad(date.getMinutes()),
+    ':',
+    pad(date.getSeconds()),
+  ].join('')
 }
 
 /**
