@@ -1,0 +1,16 @@
+{
+  "name": "action",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.15.0"
+  },
+  "scripts": {
+    "update-iptv": "node src/update-iptv.js"
+  },
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.15.4"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
