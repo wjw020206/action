@@ -62,8 +62,7 @@ $Action = New-ScheduledTaskAction `
 $Trigger = New-ScheduledTaskTrigger `
   -Once `
   -At (Get-Date).AddMinutes(1) `
-  -RepetitionInterval (New-TimeSpan -Hours $IntervalHours) `
-  -RepetitionDuration (New-TimeSpan -Days 3650)
+  -RepetitionInterval (New-TimeSpan -Hours $IntervalHours)
 
 $Settings = New-ScheduledTaskSettingsSet `
   -StartWhenAvailable `
@@ -85,7 +84,7 @@ Register-ScheduledTask `
   -Trigger $Trigger `
   -Settings $Settings `
   -Principal $Principal `
-  -Description "每小时更新 IPTV 并上传到腾讯 COS" `
+  -Description "Update IPTV and upload to Tencent COS every hour" `
   -Force | Out-Null
 
 $Task = Get-ScheduledTask -TaskName $TaskName -TaskPath $TaskPath -ErrorAction Stop

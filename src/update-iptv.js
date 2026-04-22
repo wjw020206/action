@@ -83,7 +83,8 @@ async function main() {
   await mkdir(repoRoot, { recursive: true })
   await removeGeneratedFiles()
 
-  log('Downloading iptv2.m3u')
+  log(`Node version: ${process.version}`)
+  log(`Downloading iptv2.m3u from ${getUrlOrigin(process.env.IPTV_LINK)}`)
   /**
    * 下载得到的 IPTV 内容
    *
@@ -257,6 +258,20 @@ function normalizeNewlines(content) {
 }
 
 /**
+ * 获取 URL 来源，避免日志记录完整链接
+ *
+ * @param {string} url - 原始 URL
+ * @returns {string} URL 来源
+ */
+function getUrlOrigin(url) {
+  try {
+    return new URL(url).origin
+  } catch {
+    return 'invalid URL'
+  }
+}
+
+/**
  * 上传文件到腾讯 COS
  *
  * @param {string} filePath - 本地文件路径
@@ -315,10 +330,38 @@ function log(message) {
  * @returns {void}
  */
 function logError(error) {
-  const message = error instanceof Error ? error.stack || error.message : String(error)
+  const message = formatError(error)
   const line = `[${new Date().toISOString()}] ERROR ${message}`
   console.error(line)
   writeLogLine(line)
+}
+
+/**
+ * 格式化错误及底层原因
+ *
+ * @param {unknown} error - 错误对象
+ * @returns {string} 错误信息
+ */
+function formatError(error) {
+  if (!(error instanceof Error)) {
+    return String(error)
+  }
+
+  const parts = [error.stack || error.message]
+
+  /**
+   * 底层错误原因
+   *
+   * @type {unknown}
+   */
+  const cause = error.cause
+  if (cause instanceof Error) {
+    parts.push(`Caused by: ${cause.stack || cause.message}`)
+  } else if (cause) {
+    parts.push(`Caused by: ${String(cause)}`)
+  }
+
+  return parts.join('\n')
 }
 
 /**
