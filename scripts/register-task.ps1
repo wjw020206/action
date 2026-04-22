@@ -76,7 +76,7 @@ $CurrentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 $Principal = New-ScheduledTaskPrincipal `
   -UserId $CurrentUser `
   -LogonType Interactive `
-  -RunLevel LeastPrivilege
+  -RunLevel Limited
 
 Register-ScheduledTask `
   -TaskName $TaskName `
