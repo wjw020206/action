@@ -4,6 +4,7 @@ import path from 'node:path'
 import { loadEnvFile } from 'node:process'
 import { fileURLToPath } from 'node:url'
 import COS from 'cos-nodejs-sdk-v5'
+import nodemailer from 'nodemailer'
 
 /**
  * 脚本所在目录
@@ -51,6 +52,20 @@ const requiredEnv = [
   'COS_SECRET_KEY',
   'COS_BUCKET',
   'COS_REGION',
+]
+
+/**
+ * 邮件提醒必需的环境变量名
+ *
+ * @type {string[]}
+ */
+const emailRequiredEnv = [
+  'SMTP_HOST',
+  'SMTP_PORT',
+  'SMTP_USER',
+  'SMTP_PASS',
+  'MAIL_FROM',
+  'MAIL_TO',
 ]
 
 /**
@@ -125,6 +140,38 @@ async function main() {
 }
 
 /**
+ * 是否启用邮件提醒
+ *
+ * @returns {boolean} 是否启用
+ */
+function isEmailNotifyEnabled() {
+  return process.env.EMAIL_NOTIFY === 'true'
+}
+
+/**
+ * 校验邮件提醒环境变量
+ *
+ * @returns {void}
+ */
+function validateEmailEnv() {
+  if (!isEmailNotifyEnabled()) {
+    return
+  }
+
+  /**
+   * 缺失的邮件环境变量名
+   *
+   * @type {string[]}
+   */
+  const missingEnv = emailRequiredEnv.filter((name) => !process.env[name])
+  if (missingEnv.length > 0) {
+    throw new Error(
+      `Missing required email environment variables: ${missingEnv.join(', ')}`,
+    )
+  }
+}
+
+/**
  * 校验必需环境变量
  *
  * @returns {void}
@@ -141,6 +188,8 @@ function validateRequiredEnv() {
       `Missing required environment variables: ${missingEnv.join(', ')}`,
     )
   }
+
+  validateEmailEnv()
 }
 
 /**
@@ -337,6 +386,47 @@ function logError(error) {
 }
 
 /**
+ * 发送错误提醒邮件
+ *
+ * @param {unknown} error - 错误对象
+ * @returns {Promise<void>}
+ */
+async function sendErrorEmail(error) {
+  if (!isEmailNotifyEnabled()) {
+    return
+  }
+
+  const transporter = nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: Number(process.env.SMTP_PORT),
+    secure: process.env.SMTP_SECURE === 'true',
+    auth: {
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
+    },
+  })
+
+  const message = formatError(error)
+
+  await transporter.sendMail({
+    from: process.env.MAIL_FROM,
+    to: process.env.MAIL_TO,
+    subject: `[IPTV] Update failed at ${formatLocalTime(new Date())}`,
+    text: [
+      'IPTV update failed.',
+      '',
+      `Time: ${formatLocalTime(new Date())}`,
+      `Project: ${repoRoot}`,
+      `Node: ${process.version}`,
+      '',
+      message,
+    ].join('\n'),
+  })
+
+  log('Error email sent')
+}
+
+/**
  * 格式化本地时间
  *
  * @param {Date} date - 时间对象
@@ -412,6 +502,13 @@ function writeLogLine(line) {
 async function handleFatalError(error) {
   await removeGeneratedFiles()
   logError(error)
+
+  try {
+    await sendErrorEmail(error)
+  } catch (emailError) {
+    logError(emailError)
+  }
+
   process.exitCode = 1
 }
 
