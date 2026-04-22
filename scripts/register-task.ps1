@@ -1,11 +1,16 @@
 param(
   [string]$TaskName = "Update IPTV",
+  [string]$TaskPath = "\",
   [string]$ProjectDir = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path,
   [int]$IntervalHours = 1,
   [switch]$RunNow
 )
 
 $ErrorActionPreference = "Stop"
+
+if ($IntervalHours -lt 1) {
+  throw "IntervalHours must be greater than or equal to 1."
+}
 
 function Find-OptionalCommandPath {
   param(
@@ -66,13 +71,16 @@ $Settings = New-ScheduledTaskSettingsSet `
   -DontStopIfGoingOnBatteries `
   -WakeToRun
 
+$CurrentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
+
 $Principal = New-ScheduledTaskPrincipal `
-  -UserId $env:USERNAME `
-  -LogonType InteractiveToken `
+  -UserId $CurrentUser `
+  -LogonType Interactive `
   -RunLevel LeastPrivilege
 
 Register-ScheduledTask `
   -TaskName $TaskName `
+  -TaskPath $TaskPath `
   -Action $Action `
   -Trigger $Trigger `
   -Settings $Settings `
@@ -80,12 +88,15 @@ Register-ScheduledTask `
   -Description "每小时更新 IPTV 并上传到腾讯 COS" `
   -Force | Out-Null
 
-Write-Host "Task registered: $TaskName"
+$Task = Get-ScheduledTask -TaskName $TaskName -TaskPath $TaskPath -ErrorAction Stop
+
+Write-Host "Task registered: $($Task.TaskPath)$($Task.TaskName)"
 Write-Host "Project directory: $ProjectDir"
 Write-Host "Command: $TaskCommand $TaskArgument"
 Write-Host "Interval: every $IntervalHours hour(s)"
+Write-Host "State: $($Task.State)"
 
 if ($RunNow) {
-  Start-ScheduledTask -TaskName $TaskName
-  Write-Host "Task started: $TaskName"
+  Start-ScheduledTask -TaskName $TaskName -TaskPath $TaskPath
+  Write-Host "Task started: $($Task.TaskPath)$($Task.TaskName)"
 }
