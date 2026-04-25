@@ -69,6 +69,13 @@ const emailRequiredEnv = [
 ]
 
 /**
+ * 默认邮件主题前缀
+ *
+ * @type {string}
+ */
+const DEFAULT_MAIL_SUBJECT_PREFIX = 'IPTV 更新失败'
+
+/**
  * 本地文件路径
  *
  * @type {{fixed: string, iptv: string, iptv2: string}}
@@ -407,23 +414,46 @@ async function sendErrorEmail(error) {
   })
 
   const message = formatError(error)
+  const now = new Date()
 
   await transporter.sendMail({
     from: process.env.MAIL_FROM,
     to: process.env.MAIL_TO,
-    subject: `[IPTV] Update failed at ${formatLocalTime(new Date())}`,
-    text: [
-      'IPTV update failed.',
-      '',
-      `Time: ${formatLocalTime(new Date())}`,
-      `Project: ${repoRoot}`,
-      `Node: ${process.version}`,
-      '',
-      message,
-    ].join('\n'),
+    subject: buildErrorMailSubject(now),
+    text: buildErrorMailText(message, now),
   })
 
-  log('Error email sent')
+  log('错误提醒邮件已发送')
+}
+
+/**
+ * 构造错误提醒邮件主题
+ *
+ * @param {Date} date - 发送时间
+ * @returns {string} 邮件主题
+ */
+function buildErrorMailSubject(date) {
+  return `[IPTV] ${DEFAULT_MAIL_SUBJECT_PREFIX} at ${formatLocalTime(date)}`
+}
+
+/**
+ * 构造错误提醒邮件正文
+ *
+ * @param {string} message - 格式化后的错误内容
+ * @param {Date} date - 发送时间
+ * @returns {string} 邮件正文
+ */
+function buildErrorMailText(message, date) {
+  return [
+    'IPTV 自动更新失败。',
+    '',
+    `时间: ${formatLocalTime(date)}`,
+    `项目目录: ${repoRoot}`,
+    `Node: ${process.version}`,
+    '',
+    '错误详情:',
+    message,
+  ].join('\n')
 }
 
 /**
