@@ -12,8 +12,8 @@ importers:
         specifier: ^2.15.4
         version: 2.15.4
       nodemailer:
-        specifier: ^7.0.10
-        version: 7.0.13
+        specifier: ^8.0.6
+        version: 8.0.6
 
 packages:
 
@@ -195,8 +195,8 @@ packages:
     resolution: {integrity: sha512-Ysbi9uYW9hFyfrThdDEQuykN4Ey6BuwPD2kpI5ES/nFTDn/98yxYNLZJcgUAKPT/mcrLLKaGzJR9YVxJrIdASQ==}
     engines: {node: '>=8'}
 
-  nodemailer@7.0.13:
-    resolution: {integrity: sha512-PNDFSJdP+KFgdsG3ZzMXCgquO7I6McjY2vlqILjtJd0hy8wEvtugS9xKRF2NWlPNGxvLCXlTNIae4serI7dinw==}
+  nodemailer@8.0.6:
+    resolution: {integrity: sha512-Nm2XeuDwwy2wi5A+8jPWwQwNzcjNjhWdE3pVLoXEusxJqCnAPAgnBGkSmiLknbnWuOF9qraRpYZjfxqtKZ4tPw==}
     engines: {node: '>=6.0.0'}
 
   oauth-sign@0.9.0:
@@ -467,7 +467,7 @@ snapshots:
 
   mimic-fn@3.1.0: {}
 
-  nodemailer@7.0.13: {}
+  nodemailer@8.0.6: {}
 
   oauth-sign@0.9.0: {}
 
