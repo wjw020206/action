@@ -488,7 +488,7 @@ function formatLocalTime(date) {
  */
 function formatError(error) {
   if (!(error instanceof Error)) {
-    return String(error)
+    return formatUnknownValue(error)
   }
 
   const parts = [error.stack || error.message]
@@ -502,10 +502,80 @@ function formatError(error) {
   if (cause instanceof Error) {
     parts.push(`Caused by: ${cause.stack || cause.message}`)
   } else if (cause) {
-    parts.push(`Caused by: ${String(cause)}`)
+    parts.push(`Caused by: ${formatUnknownValue(cause)}`)
   }
 
   return parts.join('\n')
+}
+
+/**
+ * 格式化未知类型的值
+ *
+ * @param {unknown} value - 待格式化的值
+ * @returns {string} 可读字符串
+ */
+function formatUnknownValue(value) {
+  if (typeof value === 'string') {
+    return value
+  }
+
+  if (
+    typeof value === 'number' ||
+    typeof value === 'boolean' ||
+    typeof value === 'bigint' ||
+    typeof value === 'symbol' ||
+    value == null
+  ) {
+    return String(value)
+  }
+
+  if (typeof value === 'function') {
+    return `[Function: ${value.name || 'anonymous'}]`
+  }
+
+  try {
+    const text = JSON.stringify(value, createSafeJsonReplacer(), 2)
+    if (typeof text === 'string') {
+      return text
+    }
+  } catch {
+    // Ignore JSON serialization errors and fall back to the default tag.
+  }
+
+  return Object.prototype.toString.call(value)
+}
+
+/**
+ * 创建可安全序列化任意对象的 JSON replacer
+ *
+ * @returns {(key: string, value: unknown) => unknown} JSON replacer
+ */
+function createSafeJsonReplacer() {
+  const seen = new WeakSet()
+
+  return (_key, value) => {
+    if (typeof value === 'bigint') {
+      return `${value}n`
+    }
+
+    if (typeof value === 'function') {
+      return `[Function: ${value.name || 'anonymous'}]`
+    }
+
+    if (typeof value === 'symbol') {
+      return value.toString()
+    }
+
+    if (value && typeof value === 'object') {
+      if (seen.has(value)) {
+        return '[Circular]'
+      }
+
+      seen.add(value)
+    }
+
+    return value
+  }
 }
 
 /**
